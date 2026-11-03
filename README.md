@@ -45,15 +45,15 @@ These questions structure the investigation around the relationship between sale
 
 The analysis revealed several patterns across lead conversion, sales operations, and customer purchasing behaviour:
 
-- **Lead conversion:** Of the 13,562 analytical leads, 4,510 (33.25%) reached sales-ready status, while 2,175 (16.04%) were recorded as Won. This highlights the gap between lead acquisition and successful sales outcomes.
+- **Lead conversion:** Of the **13,562** analytical leads, **4,510 (33.25%)** reached sales-ready status, while **2,175 (16.04%)** were recorded as Won. This highlights the gap between lead acquisition and successful sales outcomes.
 
-- **Lead assignment:** 696 leads (5.13%) had no assigned sales representative, indicating an operational gap in lead ownership.
+- **Lead assignment:** **696 leads (5.13%)** had no assigned sales representative, indicating an operational gap in lead ownership.
 
-- **CRM documentation:** 814 Lost leads had no recorded lost reason, limiting visibility into why these opportunities were unsuccessful.
+- **CRM documentation:** **814** Lost leads had no recorded lost reason, limiting visibility into why these opportunities were unsuccessful.
 
-- **Customer purchasing behaviour:** Of 2,242 purchasing customers, 1,992 (88.85%) made one recorded purchase, while 250 (11.15%) made repeat purchases.
+- **Customer purchasing behaviour:** Of **2,242** purchasing customers, **1,992 (88.85%)** made one recorded purchase, while **250 (11.15%)** made repeat purchases.
 
-- **Customer sales contribution:** Repeat customers contributed 20.1% of recorded payments despite representing only 11.15% of purchasing customers. One-time customers accounted for the remaining 79.9%.
+- **Customer sales contribution:** Repeat customers contributed **20.1%** of recorded payments despite representing only **11.15%** of purchasing customers. One-time customers accounted for the remaining **79.9%**.
 
 The analysis also examined sales contribution across representatives and training programmes, performance against assigned targets, and monthly changes in sales payments and order volumes. These findings provide a basis for identifying areas that warrant management attention and further investigation.
 
@@ -155,7 +155,6 @@ The Executive Overview brings together key performance indicators and four visua
 <img width="971" height="547" alt="Executive Overview" src="https://github.com/user-attachments/assets/d0e3e501-b163-475e-ad1e-d483b47e12db" />
 
 **Key Performance Indicators**
-
 | KPI | Result |
 |---|---:|
 | Analytical Leads | 13,562 |
@@ -165,20 +164,13 @@ The Executive Overview brings together key performance indicators and four visua
 | Sales Orders | 2,492 |
 | Total Sales Payments | ₦789M |
 
-**Visual 1: Conversion Rate by Acquisition Source**
-
-
-Compares the proportion of leads converted into Won outcomes across acquisition sources.
-
-- Corporate Outreach recorded the highest conversion rate (25.62%), followed by Referral (24.45%) and Walk-in (20.69%).
-- Facebook/Instagram Ads recorded the lowest rate (10.03%).
+**Conversion Rate by Acquisition Source:** Compares the proportion of leads converted into Won outcomes across acquisition sources.
+- Corporate Outreach recorded the highest conversion rate **(25.62%)**, followed by Referral **(24.45%)** and Walk-in **(20.69%)**.
+- Facebook/Instagram Ads recorded the lowest rate **(10.03%)**.
 
 *Business implication:* Higher lead volume does not necessarily translate into stronger conversion. Management should investigate the practices behind higher-converting sources and examine the lower conversion performance of Facebook/Instagram Ads.
 
-**Visual 2: Lead Outcomes Across the Analytical Population**
-
-Shows how the 13,562 analytical leads are distributed across their recorded statuses.
-
+**Visual Lead Outcomes Across the Analytical Population:** Shows how the **13,562** analytical leads are distributed across their recorded statuses.
 - Contacted: 3,670
 - Lost: 3,389
 - New: 3,269
@@ -187,19 +179,14 @@ Shows how the 13,562 analytical leads are distributed across their recorded stat
 
 *Business implication:* The volume of Lost leads highlights the importance of understanding unsuccessful opportunities, while New and Nurture leads require appropriate monitoring and follow-up.
 
-**Visual 3: Monthly Sales Performance Over Time**
-
-Tracks monthly recorded sales payments across the two-year period.
-
+**Monthly Sales Performance Over Time:** Tracks monthly recorded sales payments across the two-year period.
 - January recorded the highest monthly payments in both years: ₦55.3M in 2024 and ₦50.45M in 2025.
 - December recorded the lowest payments in both years.
-- Total recorded payments declined by approximately 2.4% in 2025 compared with 2024.
+- Total recorded payments declined by approximately **2.4%** in 2025 compared with 2024.
 
 *Business implication:* The recurring monthly pattern and year-on-year decline warrant further investigation into demand, order volumes, and sales execution.
 
-**Visual 4: Sales Contribution by Acquisition Source**
-
-Compares recorded sales payments across acquisition sources.
+**Sales Contribution by Acquisition Source:** Compares recorded sales payments across acquisition sources.
 
 | Acquisition Source | Sales Contribution |
 |---|---:|
@@ -214,3 +201,33 @@ Compares recorded sales payments across acquisition sources.
 *Business implication:* Google Ads and Website contributed the highest recorded sales payments, while Corporate Outreach had the highest conversion rate but the lowest sales contribution. Acquisition decisions should therefore consider both conversion efficiency and commercial contribution.
 
 **Overall Management Focus:** Improve lead progression and follow-up execution, investigate differences in acquisition-source performance, and use both conversion rates and sales contribution when evaluating acquisition effectiveness.
+
+### Lead & Sales Operations Performance
+This page examines lead progression, sales readiness, and assignment gaps to identify weaknesses in lead management and areas requiring operational attention.
+
+<img width="870" height="499" alt="Lead   Sales Performance" src="https://github.com/user-attachments/assets/2a692393-006a-4449-92bd-c5a1e1d50ed2" />
+
+**Key Performance Indicators**
+| KPI | Result |
+|---|---:|
+| Unassigned Leads | 696 |
+| Lost Leads Missing Reasons | 814 |
+| Unassigned Lead Rate | 5.13% |
+
+**Lead Status Distribution:** Of the **13,562** analytical leads, 3,670 were Contacted, 3,389 Lost, 3,269 New, 2,175 Won, and 1,059 placed in Nurture.
+
+*Business Implication:* The volume of Lost leads highlights the importance of understanding why opportunities fail to convert. Meanwhile, the New and Nurture categories require appropriate follow-up to prevent potential opportunities from being overlooked.
+
+**Sales-Ready Leads by Acquisition Source:** Website generated the highest number of sales-ready leads (1,014), followed by Google Ads (914) and Facebook/Instagram Ads (805).
+
+*Business Implication:* Website and Google Ads contribute substantial volumes of sales-ready opportunities. These sources are important to the sales pipeline, but their performance should also be assessed against conversion rates and eventual sales contribution.
+
+**Unassigned Leads by Acquisition Source:** Facebook/Instagram Ads recorded the highest number of unassigned leads (198), followed by Google Ads (159) and Website (123). Together, these sources account for approximately 69% of all unassigned leads.
+
+*Business Implication:* A significant proportion of unassigned leads comes from three major acquisition sources. Without clear ownership, prospective customers may not receive timely follow-up, creating a risk of missed sales opportunities.
+
+**Sales-Ready Rate by Acquisition Source:** Corporate Outreach (50.27%) and Referral (49.40%) recorded the highest sales-ready rates, while Facebook/Instagram Ads recorded the lowest (21.46%).
+
+*Business Implication:* The sources generating the highest volumes of sales-ready leads are not necessarily the ones with the highest sales-ready rates. This distinction matters when evaluating lead quality and acquisition effectiveness.
+
+**Management Focus:** Strengthen lead assignment and ownership, improve documentation of lost opportunities, and investigate the practices associated with higher sales-ready rates. This will help management assess acquisition sources based on both lead volume and quality.
