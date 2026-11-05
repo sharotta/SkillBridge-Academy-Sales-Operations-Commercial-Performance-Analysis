@@ -214,19 +214,19 @@ This page examines lead progression, sales readiness, and assignment gaps to ide
 | Lost Leads Missing Reasons | 814 |
 | Unassigned Lead Rate | 5.13% |
 
-**Lead Status Distribution:** Of the **13,562** analytical leads, 3,670 were Contacted, 3,389 Lost, 3,269 New, 2,175 Won, and 1,059 placed in Nurture.
+- **Lead Status Distribution:** Of the **13,562** analytical leads, 3,670 were Contacted, 3,389 Lost, 3,269 New, 2,175 Won, and 1,059 placed in Nurture.
 
 *Business Implication:* The volume of Lost leads highlights the importance of understanding why opportunities fail to convert. Meanwhile, the New and Nurture categories require appropriate follow-up to prevent potential opportunities from being overlooked.
 
-**Sales-Ready Leads by Acquisition Source:** Website generated the highest number of sales-ready leads (1,014), followed by Google Ads (914) and Facebook/Instagram Ads (805).
+- **Sales-Ready Leads by Acquisition Source:** Website generated the highest number of sales-ready leads (1,014), followed by Google Ads (914) and Facebook/Instagram Ads (805).
 
 *Business Implication:* Website and Google Ads contribute substantial volumes of sales-ready opportunities. These sources are important to the sales pipeline, but their performance should also be assessed against conversion rates and eventual sales contribution.
 
-**Unassigned Leads by Acquisition Source:** Facebook/Instagram Ads recorded the highest number of unassigned leads (198), followed by Google Ads (159) and Website (123). Together, these sources account for approximately 69% of all unassigned leads.
+- **Unassigned Leads by Acquisition Source:** Facebook/Instagram Ads recorded the highest number of unassigned leads (198), followed by Google Ads (159) and Website (123). Together, these sources account for approximately 69% of all unassigned leads.
 
 *Business Implication:* A significant proportion of unassigned leads comes from three major acquisition sources. Without clear ownership, prospective customers may not receive timely follow-up, creating a risk of missed sales opportunities.
 
-**Sales-Ready Rate by Acquisition Source:** Corporate Outreach (50.27%) and Referral (49.40%) recorded the highest sales-ready rates, while Facebook/Instagram Ads recorded the lowest (21.46%).
+- **Sales-Ready Rate by Acquisition Source:** Corporate Outreach (50.27%) and Referral (49.40%) recorded the highest sales-ready rates, while Facebook/Instagram Ads recorded the lowest (21.46%).
 
 *Business Implication:* The sources generating the highest volumes of sales-ready leads are not necessarily the ones with the highest sales-ready rates. This distinction matters when evaluating lead quality and acquisition effectiveness.
 
@@ -238,27 +238,26 @@ This page examines lead progression, sales readiness, and assignment gaps to ide
 
 This page evaluates sales performance across representatives and training programmes, comparing deal volumes, revenue target achievement, average payments per order, and recorded sales contributions.
 
-**Average Amount Paid per Order by Programme:** *This answers the business question Which programmes generate the highest average am?* Software Engineering recorded the highest average amount paid per order (₦493,736), followed by Full Stack Web Development (₦378,253) and Cyber Security Professional (₦336,394). Digital Marketing Professional recorded the lowest average (₦201,158).
+- **Average Amount Paid per Order by Programme:** *This answers the business question Which programmes generate the highest average am?* Software Engineering recorded the highest average amount paid per order (₦493,736), followed by Full Stack Web Development (₦378,253) and Cyber Security Professional (₦336,394). Digital Marketing Professional recorded the lowest average (₦201,158).
 
 *Business implication:* Average payment values differ across programmes, providing management with a basis for reviewing programme pricing, payment patterns, and commercial positioning. Higher average payments do not necessarily indicate higher profitability.
 
-**Actual Deals vs Target Deals by Representative:** *This answers business the business question Are sales representatives meeting their expected sales volume targets?*
+- **Actual Deals vs Target Deals by Representative:** *This answers business the business question Are sales representatives meeting their expected sales volume targets?*
 Godwin Adeyemi was the only representative to exceed the assigned deal target, recording 353 deals against 298. The other 13 representatives fell below their individual targets.
 
-**Business implication:** The deal-volume results highlight a gap between expected and actual sales activity. Management should examine individual performance and identify where additional support or improvements in sales execution may be required.
+*Business implication:* The deal-volume results highlight a gap between expected and actual sales activity. Management should examine individual performance and identify where additional support or improvements in sales execution may be required.
 
-**Sales Contribution by Representative:** *Which sales representatives contribute the most to the sales recorded in the dataset?*
+- **Sales Contribution by Representative:** *Which sales representatives contribute the most to the sales recorded in the dataset?*
 Godwin Adeyemi recorded the highest sales contribution at **₦110.08M**, followed by **Ogechi Ibrahim (₦76.06M)** and **Confidence Suleiman (₦69.40M)**.
 
-**Business implication:** Sales contribution varies considerably across representatives. Identifying the strongest contributors can help management understand differences in commercial performance and investigate practices that may be transferable to other team members.
+*Business implication:* Sales contribution varies considerably across representatives. Identifying the strongest contributors can help management understand differences in commercial performance and investigate practices that may be transferable to other team members.
 
-**Sales Contribution by Programme:** *Which training programmes contribute the most to recorded sales value?*
+- **Sales Contribution by Programme:** *Which training programmes contribute the most to recorded sales value?*
 Full Stack Web Development contributed the highest recorded sales value **(₦162.27M)**, followed by **Data Analytics (₦160.40M)**, **Software Engineering (₦136.76M)**, and **Cyber Security Professional (₦127.83M)**.
 
-**Business implication:** Commercial contribution differs across programmes. These results help management identify programmes with stronger sales contributions when reviewing programme demand and commercial priorities.
+*Business implication:* Commercial contribution differs across programmes. These results help management identify programmes with stronger sales contributions when reviewing programme demand and commercial priorities.
 
-**Revenue Target Achievement by Representative** *Are representatives meeting their assigned revenue targets?*
-
+- **Revenue Target Achievement by Representative** *Are representatives meeting their assigned revenue targets?*
 Five representatives exceeded their revenue targets: **Godwin Adeyemi (155.54%)**, **Onyinye Yusuf (121.39%)**, **Confidence Suleiman (120.29%)**, **Tunde Abdullahi (120.02%)**, and **Musa Garba (102.60%)**. **Chinwe Abubakar** recorded the lowest achievement at **50.43%**.
 
 *Business implication:* Revenue target achievement presents a different view of performance from deal volume. A representative may contribute substantial sales or achieve revenue targets without necessarily meeting their deal-volume target. Management should therefore assess both measures when reviewing individual performance.
@@ -279,10 +278,10 @@ This page examines customer purchasing behaviour and sales trends to understand 
 
 - **Monthly Sales Orders:** The business recorded 1,294 sales orders in 2024 and 1,198 in 2025, representing a 7.4% decline. January had the highest order volume in both years, while December recorded the lowest.
 
-**Business Implication:** Fewer orders were completed in 2025, suggesting that the business should investigate what may have contributed to the decline. The recurring differences across months are also worth considering when planning sales activities and programme campaigns.
+*Business Implication:* Fewer orders were completed in 2025, suggesting that the business should investigate what may have contributed to the decline. The recurring differences across months are also worth considering when planning sales activities and programme campaigns.
 
 - **Monthly Sales Trend:** Recorded sales payments declined from approximately ₦399.12M in 2024 to ₦389.52M in 2025, a decrease of about 2.4%. January recorded the highest monthly payments in both years, while December recorded the lowest.
 
-**Business Implication:** Payments declined at a slower rate than order volumes. This suggests that changes in the amount paid per order may also be influencing the overall sales trend. Looking at both measures gives management a better understanding of what is driving changes in commercial performance.
+*Business Implication:* Payments declined at a slower rate than order volumes. This suggests that changes in the amount paid per order may also be influencing the overall sales trend. Looking at both measures gives management a better understanding of what is driving changes in commercial performance.
 
 **Management Focus:** Investigate the low level of repeat purchasing, identify opportunities to encourage existing customers to make further purchases, and examine the factors behind the decline in sales orders. These areas can help management strengthen customer relationships while improving sales performance.
