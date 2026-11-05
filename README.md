@@ -231,3 +231,58 @@ This page examines lead progression, sales readiness, and assignment gaps to ide
 *Business Implication:* The sources generating the highest volumes of sales-ready leads are not necessarily the ones with the highest sales-ready rates. This distinction matters when evaluating lead quality and acquisition effectiveness.
 
 **Management Focus:** Strengthen lead assignment and ownership, improve documentation of lost opportunities, and investigate the practices associated with higher sales-ready rates. This will help management assess acquisition sources based on both lead volume and quality.
+
+### Sales, Representative & Programme Performance
+
+<img width="870" height="499" alt="Lead   Sales Performance" src="https://github.com/user-attachments/assets/28fd590a-fe16-4fee-bf18-589eb4f2fbf5" />
+
+This page evaluates sales performance across representatives and training programmes, comparing deal volumes, revenue target achievement, average payments per order, and recorded sales contributions.
+
+**Average Amount Paid per Order by Programme:** *This answers the business question Which programmes generate the highest average am?* Software Engineering recorded the highest average amount paid per order (₦493,736), followed by Full Stack Web Development (₦378,253) and Cyber Security Professional (₦336,394). Digital Marketing Professional recorded the lowest average (₦201,158).
+
+*Business implication:* Average payment values differ across programmes, providing management with a basis for reviewing programme pricing, payment patterns, and commercial positioning. Higher average payments do not necessarily indicate higher profitability.
+
+**Actual Deals vs Target Deals by Representative:** *This answers business the business question Are sales representatives meeting their expected sales volume targets?*
+Godwin Adeyemi was the only representative to exceed the assigned deal target, recording 353 deals against 298. The other 13 representatives fell below their individual targets.
+
+**Business implication:** The deal-volume results highlight a gap between expected and actual sales activity. Management should examine individual performance and identify where additional support or improvements in sales execution may be required.
+
+**Sales Contribution by Representative:** *Which sales representatives contribute the most to the sales recorded in the dataset?*
+Godwin Adeyemi recorded the highest sales contribution at **₦110.08M**, followed by **Ogechi Ibrahim (₦76.06M)** and **Confidence Suleiman (₦69.40M)**.
+
+**Business implication:** Sales contribution varies considerably across representatives. Identifying the strongest contributors can help management understand differences in commercial performance and investigate practices that may be transferable to other team members.
+
+**Sales Contribution by Programme:** *Which training programmes contribute the most to recorded sales value?*
+Full Stack Web Development contributed the highest recorded sales value **(₦162.27M)**, followed by **Data Analytics (₦160.40M)**, **Software Engineering (₦136.76M)**, and **Cyber Security Professional (₦127.83M)**.
+
+**Business implication:** Commercial contribution differs across programmes. These results help management identify programmes with stronger sales contributions when reviewing programme demand and commercial priorities.
+
+**Revenue Target Achievement by Representative** *Are representatives meeting their assigned revenue targets?*
+
+Five representatives exceeded their revenue targets: **Godwin Adeyemi (155.54%)**, **Onyinye Yusuf (121.39%)**, **Confidence Suleiman (120.29%)**, **Tunde Abdullahi (120.02%)**, and **Musa Garba (102.60%)**. **Chinwe Abubakar** recorded the lowest achievement at **50.43%**.
+
+*Business implication:* Revenue target achievement presents a different view of performance from deal volume. A representative may contribute substantial sales or achieve revenue targets without necessarily meeting their deal-volume target. Management should therefore assess both measures when reviewing individual performance.
+
+**Management Focus:** Review representative performance using both deal-volume and revenue targets, investigate the factors associated with stronger sales contributions, and evaluate programme performance using average payment per order alongside total sales contribution.
+
+### Customer & Performance Trends
+This page examines customer purchasing behaviour and sales trends to understand how much the business relies on repeat customers and how its commercial activity has changed over the two-year period.
+<img width="977" height="543" alt="Customer Performance" src="https://github.com/user-attachments/assets/0dffd90a-d140-420b-854b-657b787a69cb" />
+
+- **One-Time vs Repeat Customers:** Of the 2,242 customers who made purchases, 1,992 (88.85%) made one recorded purchase, while only 250 (11.15%) made repeat purchases.
+
+**Business Implication:** Most purchasing customers did not return for another recorded purchase during the period. This raises an important question about how well the business maintains relationships with existing customers and whether opportunities for further programme purchases are being explored.
+
+- **Sales Contribution: One-Time vs Repeat Customers:** One-time customers contributed approximately ₦630.16M (79.9%) in recorded payments, while repeat customers contributed ₦158M (20.1%).
+
+**Business Implication:** Repeat customers account for a relatively small share of the customer base but still contribute about one-fifth of recorded payments. This shows that existing customers are a meaningful source of sales, not just an additional audience for future campaigns.
+
+- **Monthly Sales Orders:** The business recorded 1,294 sales orders in 2024 and 1,198 in 2025, representing a 7.4% decline. January had the highest order volume in both years, while December recorded the lowest.
+
+**Business Implication:** Fewer orders were completed in 2025, suggesting that the business should investigate what may have contributed to the decline. The recurring differences across months are also worth considering when planning sales activities and programme campaigns.
+
+- **Monthly Sales Trend:** Recorded sales payments declined from approximately ₦399.12M in 2024 to ₦389.52M in 2025, a decrease of about 2.4%. January recorded the highest monthly payments in both years, while December recorded the lowest.
+
+**Business Implication:** Payments declined at a slower rate than order volumes. This suggests that changes in the amount paid per order may also be influencing the overall sales trend. Looking at both measures gives management a better understanding of what is driving changes in commercial performance.
+
+**Management Focus:** Investigate the low level of repeat purchasing, identify opportunities to encourage existing customers to make further purchases, and examine the factors behind the decline in sales orders. These areas can help management strengthen customer relationships while improving sales performance.
