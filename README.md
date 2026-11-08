@@ -3,29 +3,31 @@ A business performance analysis exploring lead conversion, sales operations, cus
 
 ## Business Context
 
-SkillBridge Academy is a professional training provider offering programmes designed to help individuals develop practical and career-relevant skills. Its commercial operations involve attracting prospective learners, managing enquiries through a sales process, assigning leads to sales representatives, and converting interested prospects into paying customers.
+SkillBridge Academy is a training provider that offers programmes to help people develop practical and career-related skills.
 
-As the business manages multiple training programmes and acquisition sources, understanding how these activities contribute to sales performance is important for making informed commercial decisions. Management needs visibility into lead progression, sales execution, customer purchasing behaviour, and the revenue generated across its offerings.
+To attract customers, the business gets leads through different channels, receives enquiries from interested learners, and assigns these leads to sales representatives who follow up and work towards making sales.
 
-This creates a need to evaluate the sales process as a connected system rather than viewing lead generation, sales activity, and commercial results in isolation.
+With different training programmes, sources of leads, and sales representatives, the business needs to understand which areas are performing well and where improvements are needed.
+
+This makes it important to look at how leads become customers, how sales representatives perform, which programmes generate sales, and how customers contribute to the business over time.
 
 ## Business Problem
 
-Generating leads is only one part of achieving strong sales performance. The business must also manage enquiries effectively, follow up with prospective customers, and convert opportunities into completed purchases.
+Getting people interested in a training programme does not always lead to a sale. Some leads may not receive timely follow-up, some may lose interest, and others may not complete a purchase.
 
-When lead progression, sales activities, and commercial outcomes are examined separately, it can be difficult to identify where potential opportunities are being lost or which operational gaps deserve management's attention.
+Without a clear understanding of what happens to leads after they are generated, the business may struggle to identify where potential customers are being lost, which lead sources bring in better prospects, and how effectively sales representatives are performing.
 
-The challenge is to determine how effectively the sales process translates lead generation into commercial results, where performance differs across acquisition sources and sales representatives, and which areas warrant further investigation or improvement.
+The business therefore needs to understand what is working in its sales process, where performance is falling short, and what areas need improvement to increase sales.
 
 ## Project Context
 
-This project analyses sales and CRM data covering January 2024 to December 2025 to evaluate sales performance across the lead lifecycle, sales operations, sales representatives, training programmes, and customer purchasing behaviour.
+This project examines sales and CRM data from January 2024 to December 2025 to understand the business's sales performance and how leads progress from initial enquiries to completed purchases.
 
-The analysis combines lead records, CRM activities, sales transactions, customer information, and sales targets to examine how operational performance relates to commercial outcomes.
+The analysis uses data on leads, customer information, sales transactions, CRM activities, sales representatives, and sales targets. It also examines performance across different training programmes and lead sources.
 
-SQL Server was used to profile and prepare the data, validate data quality, and investigate the business questions. Power BI was used to bring the findings together in an interactive dashboard, allowing performance to be explored by year, sales representative, and lead source.
+SQL Server was used to clean and prepare the data, check its quality, and carry out the analysis. Power BI was then used to present the findings in an interactive dashboard, with filters for year, sales representative, and lead source.
 
-The scope is to identify meaningful performance patterns, highlight operational gaps, and provide evidence-based recommendations for management consideration.
+The goal is to identify where the business is performing well, where improvements are needed, and what management can do to improve sales performance.
 
 ## Business Questions
 
