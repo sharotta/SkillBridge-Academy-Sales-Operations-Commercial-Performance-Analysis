@@ -129,6 +129,7 @@ Records that lacked the information required for duplicate checking were retaine
 Missing values were handled according to their business meaning. For example, unassigned leads and missing lost reasons were retained because they represent operational information that may be relevant to management.
 
 ### Data Modelling
+<img width="716" height="528" alt="Data Model" src="https://github.com/user-attachments/assets/8780a1ca-d1a4-45c4-b1cf-f6e105e297df" />
 
 The dataset was organised around dimension and fact tables to support analysis across dates, sales representatives, training programmes, lead sources, customers, sales transactions, CRM activities, and targets.
 
@@ -233,8 +234,7 @@ This page examines lead progression, sales readiness, and assignment gaps to ide
 **Management Focus:** Strengthen lead assignment and ownership, improve documentation of lost opportunities, and investigate the practices associated with higher sales-ready rates. This will help management assess acquisition sources based on both lead volume and quality.
 
 ### Sales, Representative & Programme Performance
-
-<img width="870" height="499" alt="Lead   Sales Performance" src="https://github.com/user-attachments/assets/28fd590a-fe16-4fee-bf18-589eb4f2fbf5" />
+<img width="866" height="486" alt="Sales Rep   Product Performance" src="https://github.com/user-attachments/assets/5509d3db-3f6c-4ac7-a5a5-e850cb2b2c03" />
 
 This page evaluates sales performance across representatives and training programmes, comparing deal volumes, revenue target achievement, average payments per order, and recorded sales contributions.
 
