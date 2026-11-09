@@ -19,6 +19,7 @@ A business performance analysis exploring lead conversion, sales operations, cus
   - [Lead & Sales Operations Performance](#lead--sales-operations-performance)
   - [Sales Representative & Programme Performance](#sales-representative--programme-performance)
   - [Customer & Performance Trends](#customer--performance-trends)
+- [Limitations](#limitations)
 - [Business Recommendations](#business-recommendations)
 - [Tools Used & Key Learnings](#tools-used--key-learnings)
   - [Tools Used](#tools-used)
@@ -195,7 +196,7 @@ The Executive Overview brings together key performance indicators and four visua
   - Corporate Outreach recorded the highest conversion rate **(25.62%)**, followed by Referral **(24.45%)** and Walk-in **(20.69%)**.
   - Facebook/Instagram Ads recorded the lowest rate **(10.03%)**.
 
-*Business implication:* Higher lead volume does not necessarily translate into stronger conversion. Management should investigate the practices behind higher-converting sources and examine the lower conversion performance of Facebook/Instagram Ads.
+*Business Implication:* Higher lead volume does not necessarily translate into stronger conversion. Management should investigate the practices behind higher-converting sources and examine the lower conversion performance of Facebook/Instagram Ads.
 
 - **Visual Lead Outcomes Across the Analytical Population:** Shows how the **13,562** analytical leads are distributed across their recorded statuses.
   - Contacted: 3,670
@@ -204,14 +205,14 @@ The Executive Overview brings together key performance indicators and four visua
   - Won: 2,175
   - Nurture: 1,059
 
-*Business implication:* The volume of Lost leads highlights the importance of understanding unsuccessful opportunities, while New and Nurture leads require appropriate monitoring and follow-up.
+*Business Implication:* The volume of Lost leads highlights the importance of understanding unsuccessful opportunities, while New and Nurture leads require appropriate monitoring and follow-up.
 
 - **Monthly Sales Performance Over Time:** Tracks monthly recorded sales payments across the two-year period.
   - January recorded the highest monthly payments in both years: ₦55.3M in 2024 and ₦50.45M in 2025.
   - December recorded the lowest payments in both years.
   - Total recorded payments declined by approximately **2.4%** in 2025 compared with 2024.
 
-*Business implication:* The recurring monthly pattern and year-on-year decline warrant further investigation into demand, order volumes, and sales execution.
+*Business Implication:* The recurring monthly pattern and year-on-year decline warrant further investigation into demand, order volumes, and sales execution.
 
 - **Sales Contribution by Acquisition Source:** Compares recorded sales payments across acquisition sources.
 
@@ -225,9 +226,9 @@ The Executive Overview brings together key performance indicators and four visua
 | Walk-in | ₦64.84M |
 | Corporate Outreach | ₦51.31M |
 
-*Business implication:* Google Ads and Website contributed the highest recorded sales payments, while Corporate Outreach had the highest conversion rate but the lowest sales contribution. Acquisition decisions should therefore consider both conversion efficiency and commercial contribution.
+*Business Implication:* Google Ads and Website contributed the highest recorded sales payments, while Corporate Outreach had the highest conversion rate but the lowest sales contribution. Acquisition decisions should therefore consider both conversion efficiency and commercial contribution.
 
-- **Overall Management Focus:** Improve lead progression and follow-up execution, investigate differences in acquisition-source performance, and use both conversion rates and sales contribution when evaluating acquisition effectiveness.
+- **Management Focus:** Improve lead progression and follow-up execution, investigate differences in acquisition-source performance, and use both conversion rates and sales contribution when evaluating acquisition effectiveness.
 
 ### Lead & Sales Operations Performance
 This page examines lead progression, sales readiness, and assignment gaps to identify weaknesses in lead management and areas requiring operational attention.
@@ -267,25 +268,23 @@ This page evaluates sales performance across representatives and training progra
 
 - **Average Amount Paid per Order by Programme:** Software Engineering recorded the highest average amount paid per order (₦493,736), followed by Full Stack Web Development (₦378,253) and Cyber Security Professional (₦336,394). Digital Marketing Professional recorded the lowest average (₦201,158).
 
-*Business implication:* Average payment values differ across programmes, providing management with a basis for reviewing programme pricing, payment patterns, and commercial positioning. Higher average payments do not necessarily indicate higher profitability.
+*Business Implication:* Average payment values differ across programmes, providing management with a basis for reviewing programme pricing, payment patterns, and commercial positioning. Higher average payments do not necessarily indicate higher profitability.
 
 - **Actual Deals vs Target Deals by Representative:** Godwin Adeyemi was the only representative to exceed the assigned deal target, recording 353 deals against 298. The other 13 representatives fell below their individual targets.
 
-*Business implication:* The deal-volume results highlight a gap between expected and actual sales activity. Management should examine individual performance and identify where additional support or improvements in sales execution may be required.
+*Business Implication:* The deal-volume results highlight a gap between expected and actual sales activity. Management should examine individual performance and identify where additional support or improvements in sales execution may be required.
 
 - **Sales Contribution by Representative:** Godwin Adeyemi recorded the highest sales contribution at **₦110.08M**, followed by **Ogechi Ibrahim (₦76.06M)** and **Confidence Suleiman (₦69.40M)**.
 
-*Business implication:* Sales contribution varies considerably across representatives. Identifying the strongest contributors can help management understand differences in commercial performance and investigate practices that may be transferable to other team members.
+*Business Implication:* Sales contribution varies considerably across representatives. Identifying the strongest contributors can help management understand differences in commercial performance and investigate practices that may be transferable to other team members.
 
-- **Sales Contribution by Programme:** *Which training programmes contribute the most to recorded sales value?*
-Full Stack Web Development contributed the highest recorded sales value **(₦162.27M)**, followed by **Data Analytics (₦160.40M)**, **Software Engineering (₦136.76M)**, and **Cyber Security Professional (₦127.83M)**.
+- **Sales Contribution by Programme:** Full Stack Web Development contributed the highest recorded sales value **(₦162.27M)**, followed by **Data Analytics (₦160.40M)**, **Software Engineering (₦136.76M)**, and **Cyber Security Professional (₦127.83M)**.
 
-*Business implication:* Commercial contribution differs across programmes. These results help management identify programmes with stronger sales contributions when reviewing programme demand and commercial priorities.
+*Business Implication:* Commercial contribution differs across programmes. These results help management identify programmes with stronger sales contributions when reviewing programme demand and commercial priorities.
 
-- **Revenue Target Achievement by Representative** *Are representatives meeting their assigned revenue targets?*
-Five representatives exceeded their revenue targets: **Godwin Adeyemi (155.54%)**, **Onyinye Yusuf (121.39%)**, **Confidence Suleiman (120.29%)**, **Tunde Abdullahi (120.02%)**, and **Musa Garba (102.60%)**. **Chinwe Abubakar** recorded the lowest achievement at **50.43%**.
+- **Revenue Target Achievement by Representative** Five representatives exceeded their revenue targets: **Godwin Adeyemi (155.54%)**, **Onyinye Yusuf (121.39%)**, **Confidence Suleiman (120.29%)**, **Tunde Abdullahi (120.02%)**, and **Musa Garba (102.60%)**. **Chinwe Abubakar** recorded the lowest achievement at **50.43%**.
 
-*Business implication:* Revenue target achievement presents a different view of performance from deal volume. A representative may contribute substantial sales or achieve revenue targets without necessarily meeting their deal-volume target. Management should therefore assess both measures when reviewing individual performance.
+*Business Implication:* Revenue target achievement presents a different view of performance from deal volume. A representative may contribute substantial sales or achieve revenue targets without necessarily meeting their deal-volume target. Management should therefore assess both measures when reviewing individual performance.
 
 **Management Focus:** Review representative performance using both deal-volume and revenue targets, investigate the factors associated with stronger sales contributions, and evaluate programme performance using average payment per order alongside total sales contribution.
 
