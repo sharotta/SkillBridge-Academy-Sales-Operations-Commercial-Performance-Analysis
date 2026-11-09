@@ -1,6 +1,29 @@
 # SkillBridge Academy: Sales Operations & Commercial Performance Analysis
 A business performance analysis exploring lead conversion, sales operations, customer purchasing behaviour, and commercial trends to identify performance gaps and opportunities for growth.
 
+## Table of Contents
+- [Business Context](#business-context)
+- [Business Problem](#business-problem)
+- [Project Context](#project-context)
+- [Business Questions](#business-questions)
+- [Key Findings](#key-findings)
+- [Data Overview](#data-overview)
+  - [Dataset Structure](#dataset-structure)
+- [Analytical Approach](#analytical-approach)
+- [Data Preparation & Modelling](#data-preparation--modelling)
+  - [Data Profiling & Quality Assessment](#data-profiling--quality-assessment)
+  - [Data Cleaning & Standardization](#data-cleaning--standardization)
+- [SQL Analysis & Query Development](#sql-analysis--query-development)
+- [Power BI Dashboard](#power-bi-dashboard)
+  - [Executive Overview](#executive-overview)
+  - [Lead & Sales Operations Performance](#lead--sales-operations-performance)
+  - [Sales Representative & Programme Performance](#sales-representative--programme-performance)
+  - [Customer & Performance Trends](#customer--performance-trends)
+- [Business Recommendations](#business-recommendations)
+- [Tools Used & Key Learnings](#tools-used--key-learnings)
+  - [Tools Used](#tools-used)
+  - [Key Learnings](#key-learnings)
+
 ## Business Context
 
 SkillBridge Academy is a training provider that offers programmes to help people develop practical and career-related skills.
@@ -67,7 +90,7 @@ The dataset covers January 2024 to December 2025 and contains records relating t
 
 ### Dataset Structure
 
-The database contains five dimension tables and five fact tables.
+The database contains six dimension tables and four fact tables.
 
 | Table | Records | Description |
 |---|---:|---|
@@ -120,15 +143,15 @@ The profiling identified several issues requiring attention, including incomplet
 
 Partial payments were also identified in the sales data. These were retained because they represent payment conditions associated with completed orders rather than automatically indicating invalid transactions.
 
-### Data Cleaning & Standardisation
+### Data Cleaning & Standardization
 
-Lead-source and location variations were standardised using dedicated mapping tables, allowing raw values to be retained while providing consistent categories for analysis.
+- Lead-source and location variations were standardised using dedicated mapping tables, allowing raw values to be retained while providing consistent categories for analysis.
 
-Suspected duplicate leads were identified using a combination of phone number, email address, and product interest. Matching records were flagged rather than physically deleted, preserving the original CRM records for review.
+- Suspected duplicate leads were identified using a combination of **phone number, email address, and product interest**. Matching records were **flagged** rather than physically deleted, preserving the original CRM records for review.
 
-Records that lacked the information required for duplicate checking were retained under a separate `Not Checked` classification. The analytical population therefore included records marked `Keep` and `Not Checked`, while excluding those flagged as `Duplicate`.
+- Records that lacked the information required for duplicate checking were retained under a separate `Not Checked` classification. The analytical population therefore included records marked `Keep` and `Not Checked`, while excluding those flagged as `Duplicate`.
 
-Missing values were handled according to their business meaning. For example, unassigned leads and missing lost reasons were retained because they represent operational information that may be relevant to management.
+- Missing values were handled according to their business meaning. For example, unassigned leads and missing lost reasons were retained because they represent operational information that may be relevant to management.
 
 ### Data Modelling
 <img width="716" height="528" alt="Data Model" src="https://github.com/user-attachments/assets/8780a1ca-d1a4-45c4-b1cf-f6e105e297df" />
@@ -151,13 +174,14 @@ The analysis involved:
 
 The queries were organised around the business questions, with the resulting metrics and findings used to support the Power BI dashboard.
 
-### Power BI Dashboard
+## Power BI Dashboard
 ### Executive Overview
 The Executive Overview brings together key performance indicators and four visuals to assess lead conversion, lead outcomes, and sales performance across January 2024–December 2025.
 
 <img width="971" height="547" alt="Executive Overview" src="https://github.com/user-attachments/assets/d0e3e501-b163-475e-ad1e-d483b47e12db" />
 
-**Key Performance Indicators**
+- **Key Performance Indicators:**
+  
 | KPI | Result |
 |---|---:|
 | Analytical Leads | 13,562 |
@@ -167,29 +191,29 @@ The Executive Overview brings together key performance indicators and four visua
 | Sales Orders | 2,492 |
 | Total Sales Payments | ₦789M |
 
-**Conversion Rate by Acquisition Source:** Compares the proportion of leads converted into Won outcomes across acquisition sources.
-- Corporate Outreach recorded the highest conversion rate **(25.62%)**, followed by Referral **(24.45%)** and Walk-in **(20.69%)**.
-- Facebook/Instagram Ads recorded the lowest rate **(10.03%)**.
+- **Conversion Rate by Acquisition Source:** Compares the proportion of leads converted into Won outcomes across acquisition sources.
+  - Corporate Outreach recorded the highest conversion rate **(25.62%)**, followed by Referral **(24.45%)** and Walk-in **(20.69%)**.
+  - Facebook/Instagram Ads recorded the lowest rate **(10.03%)**.
 
 *Business implication:* Higher lead volume does not necessarily translate into stronger conversion. Management should investigate the practices behind higher-converting sources and examine the lower conversion performance of Facebook/Instagram Ads.
 
-**Visual Lead Outcomes Across the Analytical Population:** Shows how the **13,562** analytical leads are distributed across their recorded statuses.
-- Contacted: 3,670
-- Lost: 3,389
-- New: 3,269
-- Won: 2,175
-- Nurture: 1,059
+- **Visual Lead Outcomes Across the Analytical Population:** Shows how the **13,562** analytical leads are distributed across their recorded statuses.
+  - Contacted: 3,670
+  - Lost: 3,389
+  - New: 3,269
+  - Won: 2,175
+  - Nurture: 1,059
 
 *Business implication:* The volume of Lost leads highlights the importance of understanding unsuccessful opportunities, while New and Nurture leads require appropriate monitoring and follow-up.
 
-**Monthly Sales Performance Over Time:** Tracks monthly recorded sales payments across the two-year period.
-- January recorded the highest monthly payments in both years: ₦55.3M in 2024 and ₦50.45M in 2025.
-- December recorded the lowest payments in both years.
-- Total recorded payments declined by approximately **2.4%** in 2025 compared with 2024.
+- **Monthly Sales Performance Over Time:** Tracks monthly recorded sales payments across the two-year period.
+  - January recorded the highest monthly payments in both years: ₦55.3M in 2024 and ₦50.45M in 2025.
+  - December recorded the lowest payments in both years.
+  - Total recorded payments declined by approximately **2.4%** in 2025 compared with 2024.
 
 *Business implication:* The recurring monthly pattern and year-on-year decline warrant further investigation into demand, order volumes, and sales execution.
 
-**Sales Contribution by Acquisition Source:** Compares recorded sales payments across acquisition sources.
+- **Sales Contribution by Acquisition Source:** Compares recorded sales payments across acquisition sources.
 
 | Acquisition Source | Sales Contribution |
 |---|---:|
@@ -203,14 +227,15 @@ The Executive Overview brings together key performance indicators and four visua
 
 *Business implication:* Google Ads and Website contributed the highest recorded sales payments, while Corporate Outreach had the highest conversion rate but the lowest sales contribution. Acquisition decisions should therefore consider both conversion efficiency and commercial contribution.
 
-**Overall Management Focus:** Improve lead progression and follow-up execution, investigate differences in acquisition-source performance, and use both conversion rates and sales contribution when evaluating acquisition effectiveness.
+- **Overall Management Focus:** Improve lead progression and follow-up execution, investigate differences in acquisition-source performance, and use both conversion rates and sales contribution when evaluating acquisition effectiveness.
 
 ### Lead & Sales Operations Performance
 This page examines lead progression, sales readiness, and assignment gaps to identify weaknesses in lead management and areas requiring operational attention.
 
 <img width="870" height="499" alt="Lead   Sales Performance" src="https://github.com/user-attachments/assets/2a692393-006a-4449-92bd-c5a1e1d50ed2" />
 
-**Key Performance Indicators**
+- **Key Performance Indicators:**
+  
 | KPI | Result |
 |---|---:|
 | Unassigned Leads | 696 |
@@ -235,22 +260,20 @@ This page examines lead progression, sales readiness, and assignment gaps to ide
 
 **Management Focus:** Strengthen lead assignment and ownership, improve documentation of lost opportunities, and investigate the practices associated with higher sales-ready rates. This will help management assess acquisition sources based on both lead volume and quality.
 
-### Sales, Representative & Programme Performance
+### Sales Representative & Programme Performance
 <img width="866" height="486" alt="Sales Rep   Product Performance" src="https://github.com/user-attachments/assets/5509d3db-3f6c-4ac7-a5a5-e850cb2b2c03" />
 
 This page evaluates sales performance across representatives and training programmes, comparing deal volumes, revenue target achievement, average payments per order, and recorded sales contributions.
 
-- **Average Amount Paid per Order by Programme:** *This answers the business question Which programmes generate the highest average am?* Software Engineering recorded the highest average amount paid per order (₦493,736), followed by Full Stack Web Development (₦378,253) and Cyber Security Professional (₦336,394). Digital Marketing Professional recorded the lowest average (₦201,158).
+- **Average Amount Paid per Order by Programme:** Software Engineering recorded the highest average amount paid per order (₦493,736), followed by Full Stack Web Development (₦378,253) and Cyber Security Professional (₦336,394). Digital Marketing Professional recorded the lowest average (₦201,158).
 
 *Business implication:* Average payment values differ across programmes, providing management with a basis for reviewing programme pricing, payment patterns, and commercial positioning. Higher average payments do not necessarily indicate higher profitability.
 
-- **Actual Deals vs Target Deals by Representative:** *This answers business the business question Are sales representatives meeting their expected sales volume targets?*
-Godwin Adeyemi was the only representative to exceed the assigned deal target, recording 353 deals against 298. The other 13 representatives fell below their individual targets.
+- **Actual Deals vs Target Deals by Representative:** Godwin Adeyemi was the only representative to exceed the assigned deal target, recording 353 deals against 298. The other 13 representatives fell below their individual targets.
 
 *Business implication:* The deal-volume results highlight a gap between expected and actual sales activity. Management should examine individual performance and identify where additional support or improvements in sales execution may be required.
 
-- **Sales Contribution by Representative:** *Which sales representatives contribute the most to the sales recorded in the dataset?*
-Godwin Adeyemi recorded the highest sales contribution at **₦110.08M**, followed by **Ogechi Ibrahim (₦76.06M)** and **Confidence Suleiman (₦69.40M)**.
+- **Sales Contribution by Representative:** Godwin Adeyemi recorded the highest sales contribution at **₦110.08M**, followed by **Ogechi Ibrahim (₦76.06M)** and **Confidence Suleiman (₦69.40M)**.
 
 *Business implication:* Sales contribution varies considerably across representatives. Identifying the strongest contributors can help management understand differences in commercial performance and investigate practices that may be transferable to other team members.
 
@@ -272,11 +295,11 @@ This page examines customer purchasing behaviour and sales trends to understand 
 
 - **One-Time vs Repeat Customers:** Of the 2,242 customers who made purchases, 1,992 (88.85%) made one recorded purchase, while only 250 (11.15%) made repeat purchases.
 
-**Business Implication:** Most purchasing customers did not return for another recorded purchase during the period. This raises an important question about how well the business maintains relationships with existing customers and whether opportunities for further programme purchases are being explored.
+*Business Implication:* Most purchasing customers did not return for another recorded purchase during the period. This raises an important question about how well the business maintains relationships with existing customers and whether opportunities for further programme purchases are being explored.
 
 - **Sales Contribution: One-Time vs Repeat Customers:** One-time customers contributed approximately ₦630.16M (79.9%) in recorded payments, while repeat customers contributed ₦158M (20.1%).
 
-**Business Implication:** Repeat customers account for a relatively small share of the customer base but still contribute about one-fifth of recorded payments. This shows that existing customers are a meaningful source of sales, not just an additional audience for future campaigns.
+*Business Implication:* Repeat customers account for a relatively small share of the customer base but still contribute about one-fifth of recorded payments. This shows that existing customers are a meaningful source of sales, not just an additional audience for future campaigns.
 
 - **Monthly Sales Orders:** The business recorded 1,294 sales orders in 2024 and 1,198 in 2025, representing a 7.4% decline. January had the highest order volume in both years, while December recorded the lowest.
 
@@ -287,3 +310,53 @@ This page examines customer purchasing behaviour and sales trends to understand 
 *Business Implication:* Payments declined at a slower rate than order volumes. This suggests that changes in the amount paid per order may also be influencing the overall sales trend. Looking at both measures gives management a better understanding of what is driving changes in commercial performance.
 
 **Management Focus:** Investigate the low level of repeat purchasing, identify opportunities to encourage existing customers to make further purchases, and examine the factors behind the decline in sales orders. These areas can help management strengthen customer relationships while improving sales performance.
+
+## Business Recommendations
+
+The analysis highlights opportunities to improve lead handling, make better use of acquisition channels, strengthen sales performance, and increase the value of existing customers. The following actions are based on the performance gaps and opportunities identified.
+
+**1. Improve Lead Assignment and Follow-up:** Introduce a clear lead assignment process that ensures every new enquiry has an assigned sales representative and is followed up within an agreed timeframe. With 696 leads unassigned, including 198 from Facebook/Instagram Ads, 159 from Google Ads, and 123 from Website, improving how leads are distributed across these major sources could help prevent enquiries from being overlooked and give more prospects the opportunity to progress through the sales process.
+
+**2. Make Acquisition Strategies More Targeted:** Use the differences in lead quality, conversion, and sales contribution to guide decisions for each acquisition source. Corporate Outreach and Referral have strong sales-ready rates of 50.27% and 49.40%, respectively, and the highest conversion rates of 25.62% and 24.45%. Their lead qualification and acquisition practices are worth understanding and building on. Google Ads and Website, on the other hand, contribute the highest recorded sales payments, at approximately ₦161.65M and ₦158.94M. These channels are worth maintaining while working to improve their conversion performance. Facebook/Instagram Ads recorded the lowest conversion rate (10.03%) and sales-ready rate (21.46%), making its audience targeting and lead qualification process important areas to review.
+
+**3. Provide More Targeted Support for Sales Representatives:** Use the difference between deal-volume and revenue target achievement to identify the type of support each representative needs. Only one representative exceeded the deal target, while five exceeded their revenue targets. This suggests that improving sales volume requires attention beyond revenue performance alone. Individual performance reviews, targeted coaching, and sharing effective sales practices across the team could help address the gaps.
+
+**4. Use Programme Performance to Guide Sales Priorities:** Give greater attention to the commercial strengths of each training programme when planning promotions and sales activities. Software Engineering recorded the highest average payment per order (₦493,736), while Full Stack Web Development and Data Analytics generated the highest total sales contributions (₦162.27M and ₦160.40M). These differences can help guide programme-specific campaigns and sales conversations, while further review of enrolment demand and programme costs would be needed before making decisions about profitability or investment.
+
+**5. Create More Opportunities for Repeat Purchases:** Introduce follow-up activities for past customers, such as sharing information about related programmes, new training opportunities, and relevant progression paths. Repeat customers currently represent only 11.15% of purchasing customers but contribute 20.1% of recorded sales payments. Encouraging more existing customers to enrol again could increase repeat sales and make better use of relationships the business has already established.
+
+**6. Address the Decline in Sales Order Volume:** Review monthly order performance by acquisition source, training programme, and sales representative to identify where the reduction in orders is most noticeable. Although order volume declined by 7.4% in 2025, recorded payments declined by only 2.4%, while average payment per order increased by approximately 5.4%. The priority should be to understand what is behind the lower order volume and find ways to recover sales activity without losing the payment value achieved per order.
+
+
+## Limitations
+
+A few limitations should be considered when interpreting the findings:
+
+- **Incomplete Lead Records:** Missing contact details, lost reasons, and sales representative assignments limited some aspects of lead analysis.
+
+- **Suspected Duplicates:** Records flagged as suspected duplicates were excluded, while leads without sufficient information for duplicate checking were retained as `Not Checked`. These records may still contain duplicates.
+
+- **Sales Measurement:** Sales performance was assessed using recorded customer payments. Since programme costs and operating expenses were not included, the analysis does not measure profitability.
+
+- **Analysis Period:** The findings cover January 2024 to December 2025 and may not reflect performance outside this period.
+
+
+## Tools Used & Key Learnings
+
+### Tools Used
+
+- **SQL Server:** Data profiling, cleaning, standardisation, duplicate identification, data modelling, and business analysis using joins, CTEs, aggregations, and window functions.
+- **Power BI:** Data modelling, DAX measures, KPI development, and interactive dashboard creation.
+- **Excel:** Initial data inspection and spreadsheet-based analysis.
+
+### Key Learnings
+
+- **Understanding the Business Before Analysing the Data:** Defining the business problem and asking the right questions helped keep the analysis focused on decisions rather than simply producing reports.
+
+- **Looking Beyond Lead Volume:** A high number of leads does not necessarily translate into stronger sales results. Examining sales readiness, conversion rates, and sales contribution provided a more complete view of acquisition performance.
+
+- **The Importance of Data Quality:** Missing information and suspected duplicates can affect the reliability of analysis. Understanding how to identify, handle, and document these issues is essential when preparing data for reporting.
+
+- **Using Multiple Measures to Understand Performance:** Looking at deal volume, revenue targets, average payment per order, and total sales contribution revealed different aspects of sales performance that would not have been clear from a single metric.
+
+- **Connecting Analysis to Business Decisions:** The project reinforced the importance of interpreting findings in context and using them to identify practical areas for improvement.
