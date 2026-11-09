@@ -179,7 +179,7 @@ The queries were organised around the business questions, with the resulting met
 ### Executive Overview
 The Executive Overview brings together key performance indicators and four visuals to assess lead conversion, lead outcomes, and sales performance across January 2024–December 2025.
 
-<img width="971" height="547" alt="Executive Overview" src="https://github.com/user-attachments/assets/d0e3e501-b163-475e-ad1e-d483b47e12db" />
+<img width="967" height="541" alt="Executive Overview" src="https://github.com/user-attachments/assets/1c526716-be42-4c45-b15e-d571f7991b96" />
 
 - **Key Performance Indicators:**
   
@@ -233,7 +233,7 @@ The Executive Overview brings together key performance indicators and four visua
 ### Lead & Sales Operations Performance
 This page examines lead progression, sales readiness, and assignment gaps to identify weaknesses in lead management and areas requiring operational attention.
 
-<img width="870" height="499" alt="Lead   Sales Performance" src="https://github.com/user-attachments/assets/2a692393-006a-4449-92bd-c5a1e1d50ed2" />
+<img width="955" height="539" alt="Lead   Sales Operations Performance" src="https://github.com/user-attachments/assets/19fe58b8-efdf-48a1-af76-2a8feba291e1" />
 
 - **Key Performance Indicators:**
   
@@ -262,7 +262,8 @@ This page examines lead progression, sales readiness, and assignment gaps to ide
 **Management Focus:** Strengthen lead assignment and ownership, improve documentation of lost opportunities, and investigate the practices associated with higher sales-ready rates. This will help management assess acquisition sources based on both lead volume and quality.
 
 ### Sales Representative & Programme Performance
-<img width="866" height="486" alt="Sales Rep   Product Performance" src="https://github.com/user-attachments/assets/5509d3db-3f6c-4ac7-a5a5-e850cb2b2c03" />
+<img width="974" height="544" alt="Sales Rep   Program Performance" src="https://github.com/user-attachments/assets/75004f3f-672a-42d4-aff6-22e6a104cd2f" />
+
 
 This page evaluates sales performance across representatives and training programmes, comparing deal volumes, revenue target achievement, average payments per order, and recorded sales contributions.
 
@@ -290,7 +291,8 @@ This page evaluates sales performance across representatives and training progra
 
 ### Customer & Performance Trends
 This page examines customer purchasing behaviour and sales trends to understand how much the business relies on repeat customers and how its commercial activity has changed over the two-year period.
-<img width="977" height="543" alt="Customer Performance" src="https://github.com/user-attachments/assets/0dffd90a-d140-420b-854b-657b787a69cb" />
+
+<img width="979" height="542" alt="Customer   Performance Trends" src="https://github.com/user-attachments/assets/d76df316-eb25-4065-8912-7a743612cdc2" />
 
 - **One-Time vs Repeat Customers:** Of the 2,242 customers who made purchases, 1,992 (88.85%) made one recorded purchase, while only 250 (11.15%) made repeat purchases.
 
