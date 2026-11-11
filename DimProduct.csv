@@ -1,0 +1,8 @@
+product_id,product_name,category,base_price_ngn,delivery_mode
+PRD01,Data Analytics Professional,Analytics,280000,Both
+PRD02,Business Intelligence & Power BI,Analytics,220000,Instructor-led
+PRD03,Cybersecurity Professional,Security,320000,Online
+PRD04,Full-Stack Web Development,Development,350000,Instructor-led
+PRD05,Software Engineering,Development,420000,Instructor-led
+PRD06,Digital Marketing Professional,Marketing,180000,Online
+PRD07,Project Management Professional,Business,240000,Both

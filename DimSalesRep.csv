@@ -1,0 +1,15 @@
+rep_id,rep_name,gender,location,hire_date,exit_date,status
+REP001,Emeka Obi,M,Ibadan,2022-10-10,,Active
+REP002,Success Olawale,M,Kano,2022-03-28,,Active
+REP003,Blessing Effiong,M,Port Harcourt,2022-10-12,,Active
+REP004,Ogechi Ibrahim,F,Port Harcourt,2022-03-07,,Active
+REP005,Peter Garba,M,Kaduna,2022-12-10,,Active
+REP006,Musa Garba,M,Enugu,2022-06-13,,Active
+REP007,Godwin Adeyemi,M,Abuja,2023-03-03,,Active
+REP008,Onyinye Yusuf,F,Lagos,2022-04-14,,Active
+REP009,Deborah Adebayo,F,Ibadan,2023-03-23,,Active
+REP010,Confidence Suleiman,M,Lagos,2023-12-04,,Active
+REP011,Chidinma Ogunleye,F,Abuja,2025-02-24,,Active
+REP012,Tunde Abdullahi,M,Lagos,2024-06-25,,Active
+REP013,Chinwe Abubakar,F,Lagos,2025-05-18,2025-07-15,Exited
+REP014,Godwin Ibrahim,M,Benin City,2024-10-19,,Active
